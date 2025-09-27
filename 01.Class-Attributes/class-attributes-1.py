@@ -12,12 +12,22 @@ class YourClass(object):
 
     def set_val(self):
         self.insty = 100
+   
+    def set_val_no_self(self):
+        self.insty = 100
 
 
 dd = YourClass()
 dd.classy   # This will fetch the class attribute 10.
 dd.set_val()
 dd.insty #100  # This will fetch the instance attribute 100.
+
+print(dd.classy)
+print(dd.insty)
+
+gg = YourClass()
+gg.set_val_no_self()
+print(gg.insty)
 
 # Once `dd` is instantiated, we can access both the class and instance
 # attributes, ie.. dd.classy and dd.insty.
