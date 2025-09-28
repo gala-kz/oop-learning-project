@@ -29,7 +29,7 @@ gg = YourClass()
 gg.set_val_no_self()
 print(gg.insty)
 
-print("Gala uje ne molodec")
+print("Gala snova molodec")
 
 # Once `dd` is instantiated, we can access both the class and instance
 # attributes, ie.. dd.classy and dd.insty.
