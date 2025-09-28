@@ -3,3 +3,4 @@
 # ignore cache
 __pycache__
 *.pyc
+check.py
