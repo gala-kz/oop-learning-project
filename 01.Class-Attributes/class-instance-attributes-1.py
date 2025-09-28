@@ -32,6 +32,40 @@ c = InstanceCounter(15)
 for obj in (a, b, c):
     print("value of obj: %s" % obj.get_val())
     print("Count : %s" % obj.get_count())
+    
+# a = InstanceCounter(5)
+# val = 5
+# InstanceCounter = 1
+
+# b = InstanceCounter(10) 
+# val = 10    
+# InstanceCounter = 2
+
+# c = InstanceCounter(15) 
+# val = 15    
+# InstanceCounter = 3
+
+# prints:
+# value of obj: 5
+# count:1
+
+# value of obj: 10
+# count:2
+
+# value of obj: 15
+# count:3
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
 '''
 O/P-
