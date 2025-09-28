@@ -25,11 +25,5 @@ dd.insty #100  # This will fetch the instance attribute 100.
 print(dd.classy)
 print(dd.insty)
 
-gg = YourClass()
-gg.set_val_no_self()
-print(gg.insty)
-
-print("Gala snova molodec")
-
 # Once `dd` is instantiated, we can access both the class and instance
 # attributes, ie.. dd.classy and dd.insty.
